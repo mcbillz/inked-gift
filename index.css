@@ -1,6 +1,11 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
 body {
   font-family: "Ysabeau", sans-serif;
   margin: 0;
+  padding: 0;
 }
 .navbar {
   height: 100px;
@@ -29,7 +34,7 @@ body {
   align-self: center;
 }
 .nlink:nth-child(4) {
-  color: black;
+  color: #151516;
   padding: 0 15px;
   font-size: 15px;
 }
@@ -78,7 +83,7 @@ body {
   padding: 30px 30px;
 }
 .section2 div:first-child {
-  background-color: black;
+  background-color: #151516;
   padding: 30px 200px;
   border-radius: 30px;
 }
@@ -90,12 +95,123 @@ body {
 }
 .section3 {
   color: white;
-  background-color: black;
+  background-color: #151516;
   text-align: center;
   margin: 0;
-  height: 500px;
-  padding: 30px 0;
+  height: fit-content;
+  padding: 30px 70px;
 }
 .section3 h1 {
   font-size: 48px;
+}
+.ft-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ft-div {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 50px;
+}
+.ft-img {
+  width: 100%;
+}
+.ft-h3 {
+  font-size: 30px;
+}
+.ft-btn {
+  margin-top: 20px;
+}
+.section4 {
+  background-color: #af902a;
+  display: flex;
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.sec4img {
+  width: 50%;
+}
+.sec41 {
+  color: white;
+  padding-right: 50px;
+}
+.sec41-h2 {
+  font-size: 30px;
+}
+.sec41-p {
+  font-size: 20px;
+}
+.section5 {
+  background-color: #151516;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+  text-align: center;
+}
+.stat-i {
+  width: 50px;
+}
+.stat h2 {
+  font-size: 30px;
+}
+.section6 {
+  background-color: #af902a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 120px;
+}
+.section6 > form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 70px;
+}
+.section6 > form > input,
+textarea {
+  background-color: #a3872d;
+  color: white;
+  border-style: none;
+}
+.section6 > form > input {
+  height: 50px;
+}
+.section6 > form > label {
+  margin: 10px 0;
+}
+.sec6text {
+  width: 50%;
+}
+.sec6text h2 {
+  font-size: 36px;
+}
+.sec6text p {
+  font-size: 20px;
+}
+.form-btn {
+  background-color: #151516;
+  margin-top: 40px;
+}
+footer {
+  background-color: #151516;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 120px;
+}
+footer a {
+  color: white;
+}
+footer h2 {
+  border-bottom-style: solid;
+}
+footer h1 {
+  font-size: 40px;
+  margin: 0 15px;
+}
+.ft-links {
+  display: flex;
 }
